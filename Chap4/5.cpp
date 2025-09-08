@@ -3,15 +3,15 @@
 
 using namespace std;
 
+struct CandyBar
+{
+    string brand;
+    double weight{};
+    int calories{};
+};
+
 int main()
 {
-    struct CandyBar
-    {
-        string brand;
-        double weight;
-        int calories;
-    };
-
     CandyBar snack{
         "Mocha Munch",
         2.5,

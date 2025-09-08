@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    array<double, 3> scores;
+    array<double, 3> scores{};
     cout << ": ";
     cin >> scores[0];
     cout << ": ";

@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 4.0)
+project(cpp_primer_plus)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(cpp_primer_plus
+        Chap2/1.cpp
+        Chap2/2.cpp
+        Chap2/3.cpp
+        Chap2/4.cpp
+        Chap2/5.cpp
+        Chap2/6.cpp
+        Chap2/7.cpp
+        Chap3/1.cpp
+        Chap3/2.cpp
+        Chap3/3.cpp
+        Chap3/4.cpp
+        Chap3/5.cpp
+        Chap3/7.cpp
+        Chap3/8.cpp
+        Chap4/1.cpp
+        Chap4/0.cpp
+        Chap4/2.cpp
+        Chap4/3.cpp
+        Chap4/4.cpp
+        Chap4/5.cpp
+        Chap4/6.cpp
+        Chap4/7.cpp
+        Chap4/8.cpp
+        Chap4/9.cpp
+        Chap4/10.cpp
+        Chap5/0.cpp
+        Chap5/1.cpp
+        Chap5/2.cpp
+        Chap5/3.cpp
+        Chap5/4.cpp
+        Chap5/5.cpp
+        Chap5/6.cpp
+        Chap5/7.cpp
+        Chap5/8.cpp
+        Chap5/9.cpp
+        Chap5/10.cpp)

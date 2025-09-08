@@ -6,8 +6,8 @@ using namespace std;
 struct Pizza
 {
     string name;
-    double size;
-    double weight;
+    double size{};
+    double weight{};
 };
 
 int main()

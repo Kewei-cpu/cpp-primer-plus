@@ -6,8 +6,8 @@ using namespace std;
 struct CandyBar
 {
     string brand;
-    double weight;
-    int calories;
+    double weight{};
+    int calories{};
 };
 
 int main()

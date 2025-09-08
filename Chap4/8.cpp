@@ -6,8 +6,8 @@ using namespace std;
 struct Pizza
 {
     string name;
-    double size;
-    double weight;
+    double size{};
+    double weight{};
 };
 
 int main()
@@ -25,4 +25,6 @@ int main()
     cout << pizza->name << endl;
     cout << pizza->size << endl;
     cout << pizza->weight << endl;
+
+    delete pizza;
 }
