@@ -39,4 +39,14 @@ add_executable(cpp_primer_plus
         Chap5/7.cpp
         Chap5/8.cpp
         Chap5/9.cpp
-        Chap5/10.cpp)
+        Chap5/10.cpp
+        Chap6/0.cpp
+        Chap6/1.cpp
+        Chap6/2.cpp
+        Chap6/3.cpp
+        Chap6/4.cpp
+        Chap6/5.cpp
+        Chap6/6.cpp
+        Chap6/7.cpp
+        Chap6/8.cpp
+        Chap6/9.cpp)
