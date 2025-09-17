@@ -18,7 +18,7 @@ int main()
 
     auto patrons = new Patron[n];
 
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cout << "patron #" << i + 1;
         cout << "Enter name: ";
@@ -28,29 +28,30 @@ int main()
     }
 
     cout << "====== Grand Patrons ======" << endl;
+
     bool none = true;
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         if (patrons[i].donation > 10000)
         {
-            cout << patrons[i].name << endl;
+            cout << patrons[i].name << "\tdonated $" << patrons[i].donation << endl;
             none = false;
         }
     }
-    if (none) cout << "none";
+    if (none) cout << "none" << endl;
 
     cout << "====== Other Patrons ======" << endl;
 
     none = true;
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         if (patrons[i].donation <= 10000)
         {
-            cout << patrons[i].name << endl;
+            cout << patrons[i].name << "\tdonated $" << patrons[i].donation << endl;
             none = false;
         }
     }
-    if (none) cout << "none";
+    if (none) cout << "none" << endl;
 
 
     delete[] patrons;

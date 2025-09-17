@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <string>
+#include <cctype>
 
 using namespace std;
 
@@ -8,14 +8,13 @@ int main()
 {
     ifstream fin;
     fin.open("test.txt");
-    unsigned long long total_chars = 0;
-    string line;
-    while (fin >> line)
-    {
-        total_chars += line.size();
-    }
-    fin.close();
+    int total_chars = 0;
+    char ch;
+    while (fin.get(ch))
+        if (isgraph(ch))
+            total_chars++;
 
+    fin.close();
     cout << "Total characters: " << total_chars << endl;
     return 0;
 }
