@@ -114,7 +114,7 @@
    4 words beginning with consonants
    2 others
    ```
-   
+
 8. Write a program that opens a text file, reads it character-by-character to the end of
    the file, and reports the number of characters in the file.
 

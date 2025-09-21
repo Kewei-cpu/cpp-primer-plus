@@ -21,7 +21,7 @@ int main()
     cout << "Enter two numbers: ";
     cin >> a >> b;
 
-    for (auto f : pf)
+    for (const auto f : pf)
     {
         cout << calculate(f, a, b) << endl;
     }
