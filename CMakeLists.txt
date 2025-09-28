@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 4.0)
 project(cpp_primer_plus)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 23)
 
 add_executable(cpp_primer_plus
         Chap2/1.cpp
@@ -71,4 +71,7 @@ add_executable(cpp_primer_plus
         Chap9/3.cpp
         Chap9/4_main.cpp
         Chap9/4_im.cpp
+        Extras/calculator.cpp
+        Troubles/function_pointers_and_callables.cpp
+        Troubles/size.cpp
 )
