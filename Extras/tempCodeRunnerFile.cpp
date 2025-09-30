@@ -1,0 +1,1 @@
+i - needle.size() + 1

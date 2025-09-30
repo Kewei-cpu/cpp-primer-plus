@@ -74,4 +74,6 @@ add_executable(cpp_primer_plus
         Extras/calculator.cpp
         Troubles/function_pointers_and_callables.cpp
         Troubles/size.cpp
+        Troubles/references.cpp
+        Troubles/class.cpp
 )
