@@ -76,4 +76,7 @@ add_executable(cpp_primer_plus
         Troubles/size.cpp
         Troubles/references.cpp
         Troubles/class.cpp
+        Chap10/1.cpp
+        Chap10/2.cpp
+        Chap10/3.cpp
 )
